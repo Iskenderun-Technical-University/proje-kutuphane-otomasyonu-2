@@ -70,8 +70,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SifremıUnuttumcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SifremıUnuttumcs.Designer.cs">
+      <DependentUpon>SifremıUnuttumcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffAnaSayfa.Designer.cs">
+      <DependentUpon>StaffAnaSayfa.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıAnasayfa.resx">
+      <DependentUpon>KullanıcıAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,6 +100,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SifremıUnuttumcs.resx">
+      <DependentUpon>SifremıUnuttumcs.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="KutuphaneOtomasyonDataSet.xsc">
       <DependentUpon>KutuphaneOtomasyonDataSet.xsd</DependentUpon>
     </None>

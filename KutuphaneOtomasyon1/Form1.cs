@@ -33,14 +33,35 @@ namespace KutuphaneOtomasyon1
         {
             string text1 = ((Control)this.bunifuMaterialTextbox1).Text;
             string text2 = ((Control)this.bunifuMaterialTextbox2).Text;
-            this.cmd = new SqlCommand();
-            this.con.Open();
-            this.cmd.Connection = this.con;
-            this.cmd.CommandText = "SELECT * FROM Uyeler where email='" + ((Control)this.bunifuMaterialTextbox1).Text + "' AND sifre='" + ((Control)this.bunifuMaterialTextbox1).Text + "'";
-            this.reader = this.cmd.ExecuteReader();
-            if (this.reader.Read())
+            cmd = new SqlCommand();
+            con.Open();
+            cmd.Connection = this.con;
+            cmd.CommandText = "SELECT * FROM Uyeler where email='" + bunifuMaterialTextbox1.Text + "' AND sifre='" + bunifuMaterialTextbox2.Text + "'";
+            reader = this.cmd.ExecuteReader();
+            if (reader.Read())
             {
                 new KullanıcıAnasayfa().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı adı ya da şifre yanlış");
+            }
+            this.con.Close();
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+            string text1 = bunifuMaterialTextbox1.Text;
+            string text2 = bunifuMaterialTextbox2.Text;
+            cmd = new SqlCommand();
+            con.Open();
+            cmd.Connection = this.con;
+            cmd.CommandText = "SELECT * FROM Personel where email='" + bunifuMaterialTextbox1.Text + "' AND sifre='" + bunifuMaterialTextbox1.Text + "'"; 
+            reader = this.cmd.ExecuteReader();
+            if (this.reader.Read())
+            {
+                new StaffAnaSayfa().Show();
                 this.Hide();
             }
             else
@@ -50,9 +71,10 @@ namespace KutuphaneOtomasyon1
             this.con.Close();
         }
 
-        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            new SifremıUnuttumcs().Show();
+            this.Hide();
         }
     }
 }
