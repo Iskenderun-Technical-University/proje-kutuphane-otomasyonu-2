@@ -90,6 +90,12 @@
     <Compile Include="StaffAnaSayfa.Designer.cs">
       <DependentUpon>StaffAnaSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="uyeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyeEdit.Designer.cs">
+      <DependentUpon>uyeEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="UyeKayit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,12 @@
     </Compile>
     <EmbeddedResource Include="SifremıUnuttumcs.resx">
       <DependentUpon>SifremıUnuttumcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffAnaSayfa.resx">
+      <DependentUpon>StaffAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyeEdit.resx">
+      <DependentUpon>uyeEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UyeKayit.resx">
       <DependentUpon>UyeKayit.cs</DependentUpon>

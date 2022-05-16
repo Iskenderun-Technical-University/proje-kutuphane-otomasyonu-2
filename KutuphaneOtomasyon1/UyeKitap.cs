@@ -32,7 +32,16 @@ namespace KutuphaneOtomasyon1
 
         private void bunifuCustomDataGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            DataTable tablo = new DataTable();
+            bunifuMaterialTextbox1.Text = bunifuCustomDataGrid1.CurrentRow.Cells[1].Value.ToString();
+            bunifuMaterialTextbox2.Text = bunifuCustomDataGrid1.CurrentRow.Cells[2].Value.ToString();
+            bunifuMaterialTextbox3.Text = bunifuCustomDataGrid1.CurrentRow.Cells[4].Value.ToString();
+            bunifuMaterialTextbox4.Text = bunifuCustomDataGrid1.CurrentRow.Cells[5].Value.ToString();
+            bunifuMaterialTextbox5.Text = bunifuCustomDataGrid1.CurrentRow.Cells[6].Value.ToString();
+            bunifuMetroTextbox1.Text = bunifuCustomDataGrid1.CurrentRow.Cells[7].Value.ToString();
 
+
+            bunifuCustomDataGrid1.DataSource = tablo;
         }
     }
 }

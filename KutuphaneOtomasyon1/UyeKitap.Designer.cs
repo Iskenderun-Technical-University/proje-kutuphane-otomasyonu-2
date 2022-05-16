@@ -42,8 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.kutuphaneOtomasyonDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.kitaplarBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.kitapIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kitapADDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kitapYazarDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,6 +51,8 @@
             this.yayinEviDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kitapAciklamaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kitaplarBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.kutuphaneOtomasyonDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kitaplarBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuMaterialTextbox3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
@@ -62,9 +62,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.kutuphaneOtomasyonDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kutuphaneOtomasyonDataSet1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // kutuphaneOtomasyonDataSet1
@@ -179,19 +179,10 @@
             this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.bunifuCustomDataGrid1.RowHeadersWidth = 51;
             this.bunifuCustomDataGrid1.RowTemplate.Height = 24;
+            this.bunifuCustomDataGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(1044, 295);
             this.bunifuCustomDataGrid1.TabIndex = 8;
             this.bunifuCustomDataGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid1_CellContentClick);
-            // 
-            // kutuphaneOtomasyonDataSet1BindingSource
-            // 
-            this.kutuphaneOtomasyonDataSet1BindingSource.DataSource = this.kutuphaneOtomasyonDataSet1;
-            this.kutuphaneOtomasyonDataSet1BindingSource.Position = 0;
-            // 
-            // kitaplarBindingSource1
-            // 
-            this.kitaplarBindingSource1.DataMember = "Kitaplar";
-            this.kitaplarBindingSource1.DataSource = this.kutuphaneOtomasyonDataSet1BindingSource;
             // 
             // kitapIDDataGridViewTextBoxColumn
             // 
@@ -262,6 +253,16 @@
             // 
             this.kitaplarBindingSource2.DataMember = "Kitaplar";
             this.kitaplarBindingSource2.DataSource = this.kutuphaneOtomasyonDataSet1BindingSource;
+            // 
+            // kutuphaneOtomasyonDataSet1BindingSource
+            // 
+            this.kutuphaneOtomasyonDataSet1BindingSource.DataSource = this.kutuphaneOtomasyonDataSet1;
+            this.kutuphaneOtomasyonDataSet1BindingSource.Position = 0;
+            // 
+            // kitaplarBindingSource1
+            // 
+            this.kitaplarBindingSource1.DataMember = "Kitaplar";
+            this.kitaplarBindingSource1.DataSource = this.kutuphaneOtomasyonDataSet1BindingSource;
             // 
             // bunifuMaterialTextbox1
             // 
@@ -409,9 +410,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.kutuphaneOtomasyonDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kutuphaneOtomasyonDataSet1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kitaplarBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

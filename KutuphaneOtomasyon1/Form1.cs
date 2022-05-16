@@ -80,7 +80,17 @@ namespace KutuphaneOtomasyon1
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             new UyeKayit().Show();
-            this.Hide();
+            
+        }
+
+        private void bunifuCheckbox1_OnChange(object sender, EventArgs e)
+        {
+            if (bunifuCheckbox1.Checked)
+            {
+                textBox1.UseSystemPasswordChar = true;
+            }    
+            else
+                textBox1.UseSystemPasswordChar=false;
         }
     }
 }
