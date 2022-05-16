@@ -30,7 +30,7 @@ namespace KutuphaneOtomasyon1
                 con.Open();
                 cmd = new SqlCommand();
                 cmd.Connection = con;
-                cmd.CommandText = "insert into Uyeler (Uye_ad,Uye_soyad,email,Dogum_trh,tc_no,tel_no,sifre) values ('" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox2.Text + "','" + bunifuMaterialTextbox3.Text + "','" + bunifuDatepicker1.Value.Date.ToString() + "' , '" + bunifuMaterialTextbox4.Text + "','" + bunifuMaterialTextbox5 + "','" + bunifuMaterialTextbox6 + "')";
+                cmd.CommandText = "insert into Uyeler (Uye_ad,Uye_soyad,email,Dogum_trh,tc_no,tel_no,sifre) values (@Uye_ad, @Uye_soyad, @email, @Dogum_trh, @tc_no, @tel_no, @sifre)";
                 cmd.ExecuteNonQuery();
                 con.Close();
                 MessageBox.Show("Tebrikler başarıyla kayıt oldunuz.");
