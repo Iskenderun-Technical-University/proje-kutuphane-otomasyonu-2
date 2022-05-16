@@ -107,6 +107,7 @@
             this.linkLabel2.TabIndex = 8;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Hemen Üye Ol";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // bunifuMaterialTextbox1
             // 
@@ -153,7 +154,7 @@
             this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SpringGreen;
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.DarkSeaGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "Giriş Yap";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;

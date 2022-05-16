@@ -16,5 +16,17 @@ namespace KutuphaneOtomasyon1
         {
             InitializeComponent();
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new UyeKitap().Show();
+        }
     }
 }

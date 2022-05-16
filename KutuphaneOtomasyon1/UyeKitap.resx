@@ -117,22 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="kutuphaneOtomasyonDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="kitaplarBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>287, 17</value>
+  </metadata>
+  <metadata name="kitaplarTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 17</value>
+  </metadata>
+  <metadata name="kitaplarBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <metadata name="kutuphaneOtomasyonDataSet1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>692, 17</value>
+  </metadata>
+  <metadata name="kitaplarBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1061, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        iVBORw0KGgoAAAANSUhEUgAAAKEAAAAiCAYAAAA3dbnAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKGSURBVHhe7ZtNaxNRGIUrioKo6MaFCxG6EoqlNVpxoYi/
+        QFyIguBHKS1pYmNRrBazsVAqqAgKBgJGKAQMEswibhQZDAZdiASJZBGhkIVKsUgWwS6OnpkxccgFv5qb
+        zXnggfSdpKvDnXnnvbenB3FI2VWNRSltaixKaVNjUUqbGotS2tRYlNKmxqLvquWr2FyOoS83jt3pMYQS
+        Z7Dr+jEpfyuzwsz0Z8PYUprA6sa0MWOuxuIPN1YnsTdxFqO5OeTLBbxeeIfa0icI8ScwK8zM08orxPK3
+        sC8xjK2lSWPW2kLIxPblIzieieNz/Yv/L4X4P7426ojmb2AgE8aa+pVA5gIhZACHUqN4WHrm/1SIleVF
+        9Q0OzEewdumyOYRcARVA0Wl4m+bzYlsI+QzIW7AQNphx7mN7caIVQnbBbEL0DChs0Vj+hsOpKNYtTnkh
+        ZAvNDkYIm9wrPsIOJ+qFkO9y2EoLYZP3Hz8glBrxQrgnOYzqYs2/JIQdeEseuHnCC+Hg7ZPuexwhbMPp
+        ihtCfhCiGzRDyCWRS6MQtmmGkMNmzYVFN2ithJmwO04RwiZshtkUuyHcVoxi1nngXxLCDtnSc+zMj3sh
+        5DD5YHJMz4XCKqez17Cpct4LIe0txDBXmPcvC9FZHpcd9OciwQ0MnB8PpcN4W6v4XxOiM3CPwv7kSGu3
+        9c8QUg6TD6Uimp6IjsEAHklfwoaFC83cBUJI19cuuhtb7xQz/s+EWBmeVF66K2AggDTwhy9vzb3OORxN
+        T7kdjLZ4iX+F42CeUeJZpcFsxHzgqa3wi0wsW+jQ3VPuS0Up/1buS+BpTZ7aNGXM1ViU0qbGopQ2NRal
+        tKmxKKVNjUUprRnHd00XljX5pIdjAAAAAElFTkSuQmCC
 </value>
   </data>
 </root>

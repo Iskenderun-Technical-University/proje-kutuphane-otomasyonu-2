@@ -76,5 +76,11 @@ namespace KutuphaneOtomasyon1
             new SifremıUnuttumcs().Show();
             this.Hide();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new UyeKayit().Show();
+            this.Hide();
+        }
     }
 }
