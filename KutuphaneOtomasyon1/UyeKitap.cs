@@ -23,6 +23,8 @@ namespace KutuphaneOtomasyon1
             InitializeComponent();
         }
 
+
+      
         private void UyeKitap_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'kutuphaneOtomasyonDataSet1.Kitaplar' table. You can move, or remove it, as needed.
