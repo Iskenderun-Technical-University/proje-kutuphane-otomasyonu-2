@@ -44,7 +44,7 @@ namespace KutuphaneOtomasyon1
                     cmd.ExecuteNonQuery();
                     con.Close();
                     MessageBox.Show("Tebrikler başarıyla kayıt oldunuz.");
-                    this.Close();
+                    
                 }
                 else
                     MessageBox.Show("Lütfen girmiş olduğunuz bilgilerin uzunluğunu veya Doğum tarihinizi kontrol ediniz.");

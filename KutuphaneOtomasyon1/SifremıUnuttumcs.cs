@@ -75,17 +75,17 @@ namespace KutuphaneOtomasyon1
                 {
                     sifre = oku["sifre"].ToString();
 
-                    label1.Visible = true;
-                    label1.ForeColor = Color.Green;
-                    label1.Text = "Girmiş Olduğunuz Bilgiler Uyuşuyor Şifreniz Mail Olarak Gönderildi";
+                    label2.Visible = true;
+                    label2.ForeColor = Color.Green;
+                    label2.Text = "Girmiş Olduğunuz Bilgiler Uyuşuyor Şifreniz Mail Olarak Gönderildi";
 
-                    bunifuProgressBar1.Visible = true;
-                    bunifuProgressBar1.MaximumValue = 900000;
+                    bunifuCircleProgressbar1.Visible = true;
+                    bunifuCircleProgressbar1.MaxValue = 900000;
                     
 
                     for (int j = V; j < 900000; j++)
                     {
-                        bunifuProgressBar1.Value = j;
+                        bunifuCircleProgressbar1.Value = j;
                     }
 
                     MailGonder("ŞİFRE HATIRLATMA", "Şifreniz: " + sifre);
@@ -93,16 +93,16 @@ namespace KutuphaneOtomasyon1
                 }
                 else
                 {
-                    label1.Visible = true;
-                    label1.ForeColor = Color.Red;
-                    label1.Text = "Girmiş Olduğunuz Bilgiler Uyuşmuyor";
+                    label2.Visible = true;
+                    label2.ForeColor = Color.Red;
+                    label2.Text = "Girmiş Olduğunuz Bilgiler Uyuşmuyor";
                 }
             }
             catch (Exception)
             {
-                label1.Visible = true;
-                label1.ForeColor = Color.Red;
-                label1.Text = "Mail Gönderme Hatası";
+                label2.Visible = true;
+                label2.ForeColor = Color.Red;
+                label2.Text = "Mail Gönderme Hatası";
             }
 
         }
