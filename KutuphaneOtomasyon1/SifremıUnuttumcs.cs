@@ -65,7 +65,7 @@ namespace KutuphaneOtomasyon1
             string sifre;
             try
             {
-                SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP - VV7AEEN\\SQLEXPRESS; Initial Catalog = KutuphaneOtomasyon; Integrated Security = True");
+                SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-VV7AEEN\\SQLEXPRESS; Initial Catalog = KutuphaneOtomasyon; Integrated Security = True");
                 if (baglanti.State == ConnectionState.Closed)
                 {
                     baglanti.Open();
