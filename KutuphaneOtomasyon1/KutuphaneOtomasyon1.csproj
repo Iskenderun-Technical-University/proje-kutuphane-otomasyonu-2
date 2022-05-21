@@ -57,6 +57,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KitapEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapEdit.Designer.cs">
+      <DependentUpon>KitapEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciBilgi.Designer.cs">
+      <DependentUpon>KullaniciBilgi.cs</DependentUpon>
+    </Compile>
     <Compile Include="KullanıcıAnasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapEdit.resx">
+      <DependentUpon>KitapEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciBilgi.resx">
+      <DependentUpon>KullaniciBilgi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KullanıcıAnasayfa.resx">
       <DependentUpon>KullanıcıAnasayfa.cs</DependentUpon>

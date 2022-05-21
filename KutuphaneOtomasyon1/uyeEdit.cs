@@ -63,7 +63,6 @@ namespace KutuphaneOtomasyon1
            
 
 
-            bunifuCustomDataGrid1.DataSource = tablo;
         }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
@@ -144,6 +143,12 @@ namespace KutuphaneOtomasyon1
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new StaffAnaSayfa().Show();
         }
     }
 }

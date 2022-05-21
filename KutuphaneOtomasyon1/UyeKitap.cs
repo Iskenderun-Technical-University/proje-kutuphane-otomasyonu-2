@@ -40,10 +40,16 @@ namespace KutuphaneOtomasyon1
             bunifuMaterialTextbox3.Text = bunifuCustomDataGrid1.CurrentRow.Cells[4].Value.ToString();
             bunifuMaterialTextbox4.Text = bunifuCustomDataGrid1.CurrentRow.Cells[5].Value.ToString();
             bunifuMaterialTextbox5.Text = bunifuCustomDataGrid1.CurrentRow.Cells[6].Value.ToString();
-            bunifuMetroTextbox1.Text = bunifuCustomDataGrid1.CurrentRow.Cells[7].Value.ToString();
+            richTextBox1.Text = bunifuCustomDataGrid1.CurrentRow.Cells[7].Value.ToString();
 
 
-            bunifuCustomDataGrid1.DataSource = tablo;
+
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            new KullanıcıAnasayfa().Show();
+            this.Hide();
         }
     }
 }

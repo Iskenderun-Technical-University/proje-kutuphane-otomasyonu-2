@@ -117,14 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="uyelerBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>279, 17</value>
+  <metadata name="kitaplarBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>287, 17</value>
   </metadata>
-  <metadata name="kutuphaneOtomasyonDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="kutuphaneOtomasyonDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="uyelerTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>476, 17</value>
+  <metadata name="kutuphaneOtomasyonDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="kitaplarTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bunifuImageButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -340,22 +343,6 @@
         IKY6fjZ39HCr7wctruJVZQKC11zbv7fTdlinsficRWeH4B/IWynoEW5v6RW2kc/Xec4T6gjp9L+vHX4o
         +nd+N7XUUksttdRSSy211FJLLbXUUksttdRSSy211FJLLbU+GX3xxf8D9gWG0AlMwUEAAAAASUVORK5C
         YII=
-</value>
-  </data>
-  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAALUAAAApCAYAAABz92iRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJKSURBVHhe7dy/S1dRGMdxRTGMlFrSxUhSiiL/ncQfVPhj
-        KAd/UNEP8g9oEBochIYGwcFBcHAPAneHoKFBcHAQHBoCh2Of8/Ue7r0+uZn3ObyHl3ife3T63MPzPfec
-        b1tbWA5AVswi4JlZBDwzi4BnZhHwzCwCnpnFM+0nH8PNHwvhzvZMuLfxPDxYmwgjn54A/52ypwze3ZoO
-        t/bmQ8efD2ZmI7P4V8+vpfiPFGgF+8b+q9B1/M4cC1w2ZU8Z7P25GAZ2ZmM2FW5r7LlQ6wnQHw1uToXO
-        3+8r94CmuDCn5QsNHP769N9PANAw6iiG1p9Vu4jyACWfQMMbtSXqt1Ot+EWJ11SebgCO9H97EW7vzrWu
-        9UOrHGq86aHhlTKs1vna0dtWqNVyqPWoDwQ80UytGTuGWmt/WiqpDwI86T58E2frGOr7XyZb03ZtEOCJ
-        WpDHK6OtUD/6PHbxGxrACb19jKGOv9RuAh4RamSHUCM7hBrZIdTIDqFGdgg1skOokZ0Uar2F0duY+gDA
-        mxRq7dDjqBZykEKtfdTaT10fAHii/UvaxxRDnbbs1QYBnqQt1LpQ66GE01fDs7SFuij0fX8ZlQcBXhTf
-        TxOvi6JmaR1evH7wujIYaDodQ1SnkbZPl2+q0U7nvEp1oKkUaE3GOlGe6uUBoplawU4nc4GGUv+sGboS
-        aKlcnFErotUQPQH6RMkpczSFWoyif9YHQ/PE1rlCiZ4ALZE8XB2Pi9rAVdPRw+L7Ha3MRmYR8MwsAp6Z
-        RcAzswh4ZhYBt5bDKXLwfRnqXy3SAAAAAElFTkSuQmCC
 </value>
   </data>
 </root>

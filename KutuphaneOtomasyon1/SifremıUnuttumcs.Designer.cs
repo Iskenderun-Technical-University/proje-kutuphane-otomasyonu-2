@@ -34,7 +34,6 @@
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuProgressBar1 = new Bunifu.Framework.UI.BunifuProgressBar();
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuCircleProgressbar1 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
             this.SuspendLayout();
             // 
             // label1
@@ -113,35 +112,12 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Bilgilendirme";
             // 
-            // bunifuCircleProgressbar1
-            // 
-            this.bunifuCircleProgressbar1.animated = false;
-            this.bunifuCircleProgressbar1.animationIterval = 5;
-            this.bunifuCircleProgressbar1.animationSpeed = 300;
-            this.bunifuCircleProgressbar1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCircleProgressbar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar1.BackgroundImage")));
-            this.bunifuCircleProgressbar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar1.LabelVisible = true;
-            this.bunifuCircleProgressbar1.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar1.LineThickness = 5;
-            this.bunifuCircleProgressbar1.Location = new System.Drawing.Point(504, 18);
-            this.bunifuCircleProgressbar1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar1.MaxValue = 100;
-            this.bunifuCircleProgressbar1.Name = "bunifuCircleProgressbar1";
-            this.bunifuCircleProgressbar1.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgressbar1.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar1.Size = new System.Drawing.Size(108, 108);
-            this.bunifuCircleProgressbar1.TabIndex = 5;
-            this.bunifuCircleProgressbar1.Value = 0;
-            // 
             // SifremıUnuttumcs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SpringGreen;
             this.ClientSize = new System.Drawing.Size(622, 266);
-            this.Controls.Add(this.bunifuCircleProgressbar1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.bunifuProgressBar1);
             this.Controls.Add(this.bunifuThinButton21);
@@ -161,6 +137,5 @@
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuProgressBar bunifuProgressBar1;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar1;
     }
 }

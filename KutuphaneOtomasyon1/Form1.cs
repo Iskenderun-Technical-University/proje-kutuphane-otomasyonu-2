@@ -36,7 +36,7 @@ namespace KutuphaneOtomasyon1
             cmd = new SqlCommand();
             con.Open();
             cmd.Connection = this.con;
-            cmd.CommandText = "SELECT * FROM Uyeler where email='" + bunifuMaterialTextbox1.Text + "' AND sifre='" + bunifuMaterialTextbox2.Text + "'";
+            cmd.CommandText = "SELECT * FROM Uyeler where email='" + bunifuMaterialTextbox1.Text + "' AND sifre='" + textBox1.Text + "'";
             reader = this.cmd.ExecuteReader();
             if (reader.Read())
             {
@@ -57,7 +57,7 @@ namespace KutuphaneOtomasyon1
             cmd = new SqlCommand();
             con.Open();
             cmd.Connection = this.con;
-            cmd.CommandText = "SELECT * FROM Personel where email='" + bunifuMaterialTextbox1.Text + "' AND sifre='" + bunifuMaterialTextbox1.Text + "'"; 
+            cmd.CommandText = "SELECT * FROM admin where email='" + bunifuMaterialTextbox1.Text + "' AND sifre='" + textBox1.Text + "'";
             reader = this.cmd.ExecuteReader();
             if (this.reader.Read())
             {

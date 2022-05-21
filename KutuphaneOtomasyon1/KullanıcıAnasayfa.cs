@@ -28,5 +28,11 @@ namespace KutuphaneOtomasyon1
             this.Close();
             new UyeKitap().Show();
         }
+
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new KullaniciBilgi().Show();
+        }
     }
 }
