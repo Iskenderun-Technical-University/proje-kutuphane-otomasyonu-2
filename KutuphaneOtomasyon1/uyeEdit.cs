@@ -126,7 +126,7 @@ namespace KutuphaneOtomasyon1
                     cmd.Parameters.AddWithValue("@Dogum_trh", bunifuDatepicker1.Value);
                     cmd.Parameters.AddWithValue("@tc_no", bunifuMaterialTextbox4.Text);
                     cmd.Parameters.AddWithValue("@tel_no", bunifuMaterialTextbox5.Text);
-                    cmd.Parameters.AddWithValue("@sifre", bunifuMaterialTextbox6.Text);
+                    cmd.Parameters.AddWithValue("@sifre", MD5.MD5Sifrele(bunifuMaterialTextbox6.Text));
                     cmd.ExecuteNonQuery();
                     con.Close();
                     MessageBox.Show("Tebrikler başarıyla kayıt yapildi."); 
